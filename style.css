@@ -1,0 +1,940 @@
+
+/* TYPOGRAPHIE */
+.titre-page{
+    color: #000;
+    font-family: initial;
+    font-size: 6vw;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sous-titre-page{
+    font-size: 3vw;
+    margin-top: 0px;
+  }
+  h1{
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+  }
+  h2{
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+  }
+  h3{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+  }
+  h4{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+  }
+  .gigantexte{
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .paragraphe{
+    font-size: 15px;
+  }
+  .paragraphe-important{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .apperçu-texte{
+    margin: 0px 0px 0px 50px;
+    color: grey;
+  }
+
+  .aligne-a-droite{
+    text-align: right;
+  }
+  .centrage-texte{
+    text-align: center;
+  }
+
+/* ELEMENT PARTICULIER  */
+    nav{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px 0px 10px 10px;
+
+  }
+  .logo{
+    width: 40px;
+    display: block;
+    border-bottom: 0px solid !important;
+  }
+  .bttn-nav{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+  }
+  .bttn-nav:hover,
+  .bttn-or-not:hover,
+  .pageActive{
+    border-bottom: 2px solid black;
+  }
+  .bttn-nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+
+/* LES IMAGES DE FOND EVENT */
+
+  .event-bibli{
+    background-image: url(evenements/bibli.jpg);
+  }
+  .event-librairie{
+    background-image: url(evenements/librairie.jpg);
+  }
+  .event-musée{
+    background-image: url(evenements/musée.jpg);
+  }
+  .event-musée2{
+    background-image: url(evenements/musée2.jpg);
+  }
+  .event-concert{
+    background-image: url(evenements/concert.jpg);
+  }
+  .event-concert2{
+    background-image: url(evenements/concert2.jpg);
+  }
+  .event-ciné{
+    background-image: url(evenements/ciné.jpg);
+  }
+  .event-jogging{
+    background-image: url(evenements/jogging.jpg);
+  }
+  .event-kayak{
+    background-image: url(evenements/kayak.jpg);
+  }
+  .event-camping{
+    background-image: url(evenements/pique-nique-foret.jpg);
+  }
+  .event-pique-nique{
+    background-image: url(evenements/pique-nique.jpg);
+  }
+  .event-diner{
+    background-image: url(evenements/diner.jpg);
+  }
+
+  .photo-ronde{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin: 10px;
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mini-photo-ronde{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .photo-marguerite{
+    background-image: url(utilisateurs/marguerite.jpg);
+  }
+  .photo-gerard{
+    background-image: url(utilisateurs/pexels-cottonbro-studio-9950569.jpg);
+  }
+  .photo-paul{
+    background-image: url(utilisateurs/pexels-buro-millennial-1438081.jpg);
+  }
+  .photo-eliot{
+    background-image: url(utilisateurs/pexels-spencer-selover-428328.jpg);
+  }
+  .photo-germain{
+    background-image: url(utilisateurs/pexels-thgusstavo-santana-1933873.jpg);
+  }
+  .photo-sophie{
+    background-image: url(utilisateurs/pexels-andrea-piacquadio-774909.jpg);
+  }
+  .photo-camille{
+    background-image: url(utilisateurs/pexels-daniel-xavier-1102341.jpg);
+  }
+  .photo-lola{
+    background-image: url(utilisateurs/pexels-pixabay-247322.jpg);
+  }
+  .photo-charlotte{
+    background-image: url(utilisateurs/pexels-guilherme-almeida-1858175.jpg);
+  }
+
+
+ /* FORMULAIRE */
+ .formulaire {
+    width: 60%;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 2% 20% 2% 20%;
+    padding: 2%;
+  }
+  
+  form div {
+    width: 98%;
+    margin-left: 1%;
+    min-height: 83px;
+    margin-top: 25px;
+    /* white-space: pre-wrap; */
+    }
+    
+    form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+    form div > input, form div > select, form div > textarea {
+    width: 98%;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    }
+    
+    form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+    
+    form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    }
+    
+    form div > input::placeholder, form div > textarea::placeholder {
+    color: black;
+    }
+    
+    form div > select:invalid {
+    color: black;
+    }
+    
+    form div > select option {
+    background: white;
+    color: #303030;
+    cursor: pointer;
+    }
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+
+
+ /* ELEMENTS GENERIQUES */
+
+ .bttnGenerique{
+    border: 2px solid #FFC83D;
+
+    background-color: transparent;
+    /* display: inline-block; */
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 12px 80px 12px 80px;
+    width: 100%;
+    margin-bottom: 15px !important;
+  }
+  .bttnGenerique a{
+    text-decoration: none;
+    color: white;
+  }
+  .bttnGenerique:hover{
+    background:  #fac02d;
+    color: white;
+  }
+  .bttnDiscret{
+    border: 0px solid #FFC83D;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+  }
+  .mini-bttnDiscret{
+    border: 0px solid #FFC83D;
+    width: 20%;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+    float: right;
+  }
+  .bttn-or-not{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+  }
+
+.ligne{
+    width: 100%;
+    border-top: 1px solid black;
+}
+.fond-primaire{
+    background:  #FFC83D;
+    color: white;
+}
+.fond-tertiaire{
+    background:  rgb(204, 204, 204);
+}
+.secondaire{
+    color: #0793B4;
+}
+.tertiaire{
+    color: grey;
+}
+
+
+/* LES VISIONNEUSES */
+    /* PAGE D'ACCUEIL */
+.event-conteneur{
+    border-radius: 20px;
+    margin: 0vw 2vw 0vw 2vw;
+    display: inline-block;
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.img-event{
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgb(7, 7, 16) 0px -50px 36px -18px inset;
+  }
+/* ----------------------------------- */
+    .event-large{
+        width: 38vw;
+        height: 300px;
+    }
+    .event-vertical{
+        width: 15vw;
+        height: 300px;
+    }
+
+        .img-event-large{
+            background-size: 100%;
+            height: auto;
+        }
+        .img-event-vertical{
+            background-size: 200%;
+        }
+
+            .event-large > .titre-event,
+            .event-vertical > .titre-event{
+                color: white;
+                padding-left: 20px;
+                margin-top: 250px;
+                font-size: 1.5vw;
+            }
+        
+/* ----------------------------------- */
+    .event-miniature{
+        width: 15vw;
+        height: 150px;
+    }
+        .event-miniature > .titre-event{
+            color: white;
+            font-size: 2vw;
+            width: 100%;
+            text-align: center;
+            margin-top: 65px;
+        }
+
+    .event-date{
+        background-color: white;
+        border-radius: 20px;
+        float: right;
+        padding: 5px 10px 5px 10px;
+        margin-right: 10px;
+    }
+/* ----------------------------------- */
+/* PAGE EVENT PRECIS */
+.event-conteneur-plein{
+    margin: 0vw;
+    display: inline-block;
+}
+.img-event-plein{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+    .event-fond-plein{
+        width: 98vw;
+        height: 350px;
+    }
+
+/* ----------------------------------- */
+/* ----------------------------------- */
+.ami-conteneur{
+    margin: 0vw 2vw 0vw 2vw;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+    .pres-ami{
+        width: 80vw;
+        height: auto;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: block;
+    }
+        .conteneur-paragraphe-pres{
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .conteneur-paragraphe-compte{
+            width: 80%;
+            display: inline-block;
+            vertical-align: top;
+        }
+            .conteneur-point-commun{
+                width: 20%;
+                display: inline-block;
+                float: right;
+                padding: 10px;
+                vertical-align: top;
+            }
+/* ----------------------------------- */
+/* ----------------------------------- */
+.conteneur-conv-list{
+    height: 84.5vh;
+    padding: 10px;
+}
+.conteneur-conv-unique{
+    width: 98%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.conteneur-conv-unique:hover{
+    background-color: #fac02db4;
+    cursor: pointer;
+}
+
+/* ANIMATION */
+.wiggle:hover{
+    animation: wiggle 2s linear 30;
+      animation-delay: 0s;
+  }
+
+  @keyframes wiggle {
+    0%, 12% {
+      transform: rotateZ(0);
+    }
+    20% {
+      transform: rotateZ(-6deg);
+    }
+    25% {
+      transform: rotateZ(6deg);
+    }
+    30% {
+      transform: rotateZ(-6deg);
+    }
+    35% {
+      transform: rotateZ(4deg);
+    }
+    40% {
+      transform: rotateZ(-4deg);
+    }
+    45%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+/* LES AGENCEMENTS PARTICULIERS */
+
+  .marge-HB-grande{
+    height: 200px;
+  }
+  .marge-HB-moyenne{
+    height: 100px;
+  }
+  .marge-HB-petite{
+    height: 50px;
+  }
+  .centrage{
+    display: block;
+    margin: auto;
+  }
+
+  .cote-a-cote{
+    display: inline-block;
+  }
+/* LES BOITES */
+
+.conteneur16{
+    display: grid;
+    grid-template-columns: repeat(15, minmax(0,1fr));
+    gap: 5px;
+}
+
+    /* commence à 1 */
+    .boite1a2{
+        grid-column: 1 / 2;
+    }
+    .boite1a3{
+        grid-column: 1 / 3;
+    }
+    .boite1a4{
+        grid-column: 1 / 4;
+    }
+    .boite1a5{
+        grid-column: 1 / 5;
+    }
+    .boite1a6{
+        grid-column: 1 / 6;
+    }
+    .boite1a7{
+        grid-column: 1 / 7;
+    }
+    .boite1a8{
+        grid-column: 1 / 8;
+    }
+    .boite1a9{
+        grid-column: 1 / 9;
+    }
+    .boite1a10{
+        grid-column: 1 / 10;
+    }
+    .boite1a11{
+        grid-column: 1 / 11;
+    }
+    /* TOUTE LA LARGEUR = CENTRE */
+    .boite1a16{
+        grid-column: 1 / 16;
+    }
+
+    /* commence à 2 */
+    .boite2a3{
+        grid-column: 2 / 3;
+    }
+    .boite2a4{
+        grid-column: 2 / 4;
+    }
+    .boite2a5{
+        grid-column: 2 / 5;
+    }
+    .boite2a6{
+        grid-column: 2 / 6;
+    }
+    .boite2a7{
+        grid-column: 2 / 7;
+    }
+    .boite2a8{
+        grid-column: 2 / 8;
+    }
+    .boite2a9{
+        grid-column: 2 / 9;
+    }
+    .boite2a10{
+        grid-column: 2 / 10;
+    }
+    .boite2a11{
+        grid-column: 2 / 11;
+    }
+    .boite2a12{
+        grid-column: 2 / 12;
+    }
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite2a15{
+        grid-column: 2 / 15;
+    }
+
+
+    .boite2a16{
+        grid-column: 2 / 16;
+    }
+
+    /* commence à 3 */
+    .boite3a5{
+        grid-column: 3 / 5;
+    }
+    .boite3a6{
+        grid-column: 3 / 6;
+    }
+    .boite3a7{
+        grid-column: 3 / 7;
+    }
+    .boite3a8{
+        grid-column: 3 / 8;
+    }
+    .boite3a9{
+        grid-column: 3 / 9;
+    }
+    .boite3a10{
+        grid-column: 3 / 10;
+    }
+    .boite3a11{
+        grid-column: 3 / 11;
+    }
+    .boite3a12{
+        grid-column: 3 / 12;
+    }
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite3a14{
+        grid-column: 3 / 14;
+    }
+
+    /* commence à 4 */
+    .boite4a5{
+        grid-column: 4 / 5;
+    }
+    .boite4a6{
+        grid-column: 4 / 6;
+    }
+    .boite4a7{
+        grid-column: 4 / 7;
+    }
+    .boite4a8{
+        grid-column: 4 / 8;
+    }
+    .boite4a10{
+        grid-column: 4 / 10;
+    }
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite4a13{
+        grid-column: 4 / 13;
+    }
+
+    /* commence à 5 */
+    .boite5a6{
+        grid-column: 5 / 6;
+    }
+    .boite5a7{
+        grid-column: 5 / 7;
+    }
+    .boite5a8{
+        grid-column: 5 / 8;
+    }
+    .boite5a9{
+        grid-column: 5 / 9;
+    }
+    .boite5a10{
+        grid-column: 5 / 10;
+    }
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite5a12{
+        grid-column: 5 / 12;
+    }
+    .boite5a14{
+        grid-column: 5 / 14;
+    }
+
+    /* commence à 6 */
+    .boite6a8{
+        grid-column: 6 / 8;
+    }    
+    .boite6a10{
+        grid-column: 6 / 10;
+    }    
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite6a11{
+        grid-column: 6 / 11;
+    }
+
+    .boite6a14{
+        grid-column: 6 / 14;
+    }
+    .boite6a15{
+        grid-column: 6 / 15;
+    }
+
+    /* commence à 7 */
+    .boite7a9{
+        grid-column: 7 / 9;
+    }
+    /* CENTRE *//* CENTRE *//* CENTRE */
+    .boite7a10{
+        grid-column: 7 / 10;
+    }
+    .boite7a11{
+        grid-column: 7 / 11;
+    }
+    .boite7a12{
+        grid-column: 7 / 12;
+    }
+    .boite7a14{
+        grid-column: 7 / 14;
+    }
+
+
+
+    /* A DROITE *//* A DROITE *//* A DROITE */
+
+    /* commence à 8 */
+    .boite8a9{
+        grid-column: 8 / 9;
+    }
+    .boite8a10{
+        grid-column: 8 / 10;
+    }
+    .boite8a11{
+        grid-column: 8 / 11;
+    }
+    .boite8a12{
+        grid-column: 8 / 12;
+    }
+    .boite8a14{
+        grid-column: 8 / 14;
+    }
+    .boite8a15{
+        grid-column: 8 / 15;
+        padding: 10px;
+    }
+
+    /* commence à 9 */
+    .boite9a10{
+        grid-column: 9 / 10;
+    }
+    .boite9a12{
+        grid-column: 9 / 12;
+    }
+    .boite9a14{
+        grid-column: 9 / 14;
+    }
+
+    /* commence à 10 */
+
+    .boite10a12{
+        grid-column: 10 / 12;
+    }
+    .boite10a13{
+        grid-column: 10 / 13;
+    }
+    .boite10a14{
+        grid-column: 10 / 14;
+    }
+    .boite10a15{
+        grid-column: 10 / 15;
+    }
+    .boite10a16{
+        grid-column: 10 / 16;
+    }
+    
+    /* commence à 11 */
+    .boite11a13{
+        grid-column: 11 / 13;
+    }
+    .boite11a14{
+        grid-column: 11 / 14;
+    }
+    .boite11a15{
+        grid-column: 11 / 15;
+    }
+    .boite11a16{
+        grid-column: 11 / 16;
+    }
+
+    /* commence à 12 */
+    .boite12a13{
+        grid-column: 12 / 13;
+    }
+    .boite12a14{
+        grid-column: 12 / 14;
+    }
+    .boite12a16{
+        grid-column: 12 / 16;
+    }
+
+    /* commence à 13 */
+    .boite13a16{
+        grid-column: 13 / 16;
+    }
+
+    /* commence à 14 */
+    .boite14a15{
+        grid-column: 14 / 15;
+    }
+    .boite14a16{
+        grid-column: 14 / 16;
+    }
+
+    /* commence à 15 */
+    .boite15a16{
+        grid-column: 15 / 16;
+    }
+
+    @media only all and (max-width: 1300px){
+        .event-large,
+        .event-vertical{
+          width: 45%;
+          height: 300px;
+          margin-bottom: 10px;
+      }
+    }
+    @media only all and (max-width: 1000px){
+        h1{
+            font-size: 8vw;
+          }
+          h2{
+            font-size: 6vw;
+          }
+          h3{
+            font-size: 5vw;
+          }
+          h4{
+            font-size: 4vw;
+          }
+
+
+          .event-large,
+          .event-vertical{
+            width: 95%;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+        .event-vertical{
+            width: 42%;
+            height: 150px;
+        }
+            .event-large > .titre-event{
+                margin-top: 250px;
+                font-size: 3vw;
+            }
+            .event-vertical > .titre-event{
+                margin-top: 120px;
+                font-size: 3vw;
+            }
+        .event-miniature{
+            width: 18vw;
+            height: 100px;
+        }
+        .pres-ami{
+            width: 90%;
+        }
+        .conteneur-paragraphe-pres{
+            width: 90%;
+            margin-left: 10px;
+        }
+        .conteneur-point-commun{
+            width: 90%;
+            float: none;
+            padding: 10px;
+        }
+ /* toutes les boites */
+ .boite1a3,
+ .boite1a5,
+ .boite1a6,
+ .boite1a7,
+ .boite1a8,
+ .boite1a9,
+ .boite1a10,
+ .boite1a13,
+ .boite1a16,
+
+ .boite2a3,
+ .boite2a5,
+ .boite2a6,
+ .boite2a8,
+ .boite2a9,
+ .boite2a10,
+ .boite2a11,
+ .boite2a12,
+ .boite2a14,
+ .boite2a15,
+
+ .boite3a5,
+ .boite3a6,
+ .boite3a7,
+ .boite3a8,
+ .boite3a9,
+ .boite3a10,
+ .boite3a11,
+ .boite3a12,
+ .boite3a14,
+ .boite3a15,
+
+ .boite4a7,
+ .boite4a8,
+ .boite4a13,
+
+ .boite5a6,
+ .boite5a8,
+ .boite5a10,
+ .boite5a12,
+ .boite5a14,
+
+ .boite6a8,
+ .boite6a9,
+ .boite6a10,
+ .boite6a11,
+ .boite6a14,
+ .boite6a15,
+
+ .boite7a10,
+ .boite7a11,
+ .boite7a12,
+ .boite7a14,
+
+ .boite8a10,
+ .boite8a11,
+ .boite8a12,
+ .boite8a14,
+ .boite8a15,
+
+ .boite9a12,
+ .boite9a14,
+
+ .boite10a12,
+ .boite10a13,
+ .boite10a14,
+ .boite10a15,
+ .boite10a16,
+
+ .boite11a13,
+ .boite11a14,
+ .boite11a15,
+ .boite11a16,
+
+ .boite12a14,
+ .boite12a16,
+
+ .boite13a16,
+
+ .boite14a15,
+ .boite14a16 {
+     grid-column: 1 / 16;
+ }
+      
+      }
+
+      @media only all and (max-width: 600px){
+
+        .img-event-large{
+            background-size: 200%;
+            height: auto;
+        }
+        .img-event-vertical{
+            background-size: 200%;
+        }
+        .event-large > .titre-event{
+            margin-top: 250px;
+            font-size: 4vw;
+        }
+        .event-vertical > .titre-event{
+            margin-top: 120px;
+            font-size: 4vw;
+        }
+        .event-miniature{
+            width: 40vw;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .event-miniature > .titre-event{
+            font-size: 5vw;
+            margin-top: 35px;
+        }
+      }
